@@ -43,7 +43,7 @@ void CWtrMaterial::Use()
 	glMaterialf(GL_FRONT, GL_SHININESS, m_fShininess);
 }
 
-void CWtrMaterial::SetTexture(char* texture)
+void CWtrMaterial::SetTexture(const char* texture)
 {
 	strcpy(m_strTexture, texture);
 	m_iTexture = CWtrTextureManager::GetInstance()->AddTexture(m_strTexture);

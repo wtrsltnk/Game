@@ -32,7 +32,7 @@ public:
 
 	void Use();
 	
-	void SetTexture(char* texture);
+    void SetTexture(const char* texture);
 	void SetColor(int type, float r, float g, float b, float w);
 	void SetShininess(float shininess);
 };

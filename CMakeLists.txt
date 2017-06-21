@@ -7,6 +7,7 @@ find_package(OpenGL REQUIRED)
 add_subdirectory(Engine)
 
 add_executable(Game WIN32
+    README.md
     Applicatie/Applicatie.rc
     Applicatie/CApplicatie.cpp
     Applicatie/CApplicatie.h
